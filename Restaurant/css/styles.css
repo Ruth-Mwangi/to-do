@@ -1,0 +1,87 @@
+@font-face{
+    font-family: "Tangerine";
+    src:
+    url(../fonts/Tangerine/Tangerine-Bold.ttf) format("truetype"),
+    url(../fonts/Tangerine/Tangerine-Regular.ttf) format("truetype");
+
+}
+@font-face{
+    font-family: "Reenie Beanie";
+    src:
+    url(../fonts/Reenie_Beanie/ReenieBeanie-Regular.ttf) format("truetype");
+    
+
+}
+@font-face{
+    font-family: "Indie Flower";
+    src:
+    url(../fonts/Indie_Flower/IndieFlower-Regular.ttf) format("truetype");
+    
+
+}
+
+body{
+    font-family: 'Indie Flower';
+    color: antiquewhite;
+    background-image: url(../images/cook-366875_1920.jpg);
+    background-size: cover;
+    
+    
+   
+    
+}
+.modal{
+    color: whitesmoke;
+    overflow: scroll;
+    
+
+}
+.modal-content{
+    background-color: black;
+
+}
+.modal-title{
+    text-align: center;
+}
+.restaurant-name{
+    text-align: center;
+    margin-top: 200px;
+    letter-spacing: 5px;
+    margin-bottom: 100px;
+}
+
+.carousel-item {
+
+    background-color: rgba(0,0,0,0.68);
+    
+    
+    
+}
+.carousel-caption{
+    color: whitesmoke;
+    font-family: "Tangerine" ;
+    font-weight: bolder;
+    padding-left: 100px;
+      
+    
+}
+#carouselReview{
+    text-align: center;
+    height: fit-content;
+    height: 150px;
+}
+
+
+.carousel-item img{
+    width: min-content;
+    height:200px;
+}
+#accordianId{
+    color: black;
+}
+
+.card{
+    background-color: black;
+    color: blanchedalmond;
+    border: blanchedalmond solid 1px;
+}
