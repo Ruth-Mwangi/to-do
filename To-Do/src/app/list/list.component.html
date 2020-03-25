@@ -1,0 +1,11 @@
+<h1>To Do List</h1>
+<ul >
+    <div *ngFor="let list of lists; let i=index"> 
+        <li appStrikethrough>
+            <p> {{list.name}}</p>
+        </li>
+        <button (click)=toggleDetails(i)> Toggle Details</button>
+        <app-list-details *ngIf="list.showDescription" [list]='list'(isComplete)= 'completeGoal($event,i)'></app-list-details>
+    </div>
+    
+</ul>
